@@ -1,0 +1,28 @@
+@startuml
+start
+
+:Iniciar sesión;
+
+if (Usuario es Profesor) then (Profesor)
+    if (Elegir Accion) then (Leer QR)
+        :Leer QR;
+        :Marcar entrada/salida;
+    else (Cargar horario de cursos)
+        :Cargar horario de cursos;
+    endif
+elseif (Alumno)
+    :Visualizar horario de cursos;
+else (Celador)
+        switch (elegir accion?)
+        case ( cursos)
+        :ABM cursos;
+        case ( materias ) 
+        :ABM materias;
+        case ( profesor )
+          :ABM profesor;
+            :Asignación de horarios de cursos;
+        endswitch
+endif
+
+stop
+@enduml

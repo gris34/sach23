@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+actor Alumno
+actor Profesor
+actor Celador
+
+Alumno -- (Visualizar horario de cursos)
+Profesor -- (Leer QR y marcar entrada/salida)
+Profesor -- (Cargar horario de cursos)
+Celador -- (ABM cursos)
+Celador -- (ABM materias)
+Celador -- (ABM profesor)
+Celador -- (Asignación de horarios de cursos)
+
+@enduml

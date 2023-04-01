@@ -1,0 +1,30 @@
+@startuml
+actor Alumno
+actor Profesor
+actor Celador
+participant Sistema
+
+Alumno->Sistema: Iniciar sesión
+Sistema->Alumno: Mostrar horario de cursos
+
+Profesor->Sistema: Iniciar sesión
+Sistema->Profesor: Mostrar opciones
+Profesor->Sistema: Leer QR
+Sistema->Profesor: Identificar curso y materia
+Profesor->Sistema: Marcar entrada/salida
+Sistema->Profesor: Registrar entrada/salida
+Profesor->Sistema: Cargar horario de cursos
+Sistema->Profesor: Guardar horario de cursos
+
+Celador->Sistema: Iniciar sesión
+Sistema->Celador: Mostrar opciones
+Celador->Sistema: ABM cursos
+Sistema->Celador: Administrar cursos
+Celador->Sistema: ABM materias
+Sistema->Celador: Administrar materias
+Celador->Sistema: ABM profesor
+Sistema->Celador: Administrar profesores
+Celador->Sistema: Asignación de horarios de cursos
+Sistema->Celador: Guardar horarios de cursos
+
+@enduml
