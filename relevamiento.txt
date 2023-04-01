@@ -1,0 +1,21 @@
+queremos una web que tenga login este redirige segun el rol del usuario (3 roles, alumno,profesor, celador) 
+
+funciones de cada rol:
+roles
+Rol 1:--> profesor: 
+funciones:
+1.- leer qr para identificar que curso esta trabajando, posterior poder marcar entrada al curso asignado que materia es, luego puede marcar salida de ese curso.
+2.- Cargar horario de cursos: tendra un listado de cursos asignados y podra definir la carga horaria por dia en la semana (lunes a viernes).
+	
+Rol 2:--> alumno:
+Funciones:
+1.- VISUALIZAR HORARIO DE CURSOS (VISTA DE TABLA DE horarios que cargo los profesores)
+
+Rol 3:--> celador:
+Funciones:
+1.- abm cursos (alta baja y modificacion) generar un qr identificatorio para ese curso. los campos de cursos son nivel: basica,medio. grados: 7, 8, 9, 1, 2, 3.  	especialidad: informatica, basicas, asistencias.
+2.- abm materias: ver listado de materias con la opcion de añadir o modificar o eliminar. campos: nombre y descripcion.
+3.- abm profesor: ver listado de profesores con la opcion de añadir o modificar o eliminar. campos: datos personales, correo, asignacion de (materias, curso y cantidad limite de horario) a ese profesor.
+4.- Asignacion de horarios de cursos (receso almuerzo y salida) puede ser por dia lunes a viernes.
+
+podrias crearnos el diagrama de entidad relacion en este lenguaje dbdiagram.io
