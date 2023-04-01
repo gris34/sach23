@@ -1,0 +1,60 @@
+backend/
+│
+├── src/
+│   ├── application/
+│   │   ├── use_cases/
+│   │   │   ├── curso/
+│   │   │   ├── materia/
+│   │   │   ├── horario/
+│   │   │   ├── usuario/
+│   │   │   └── persona/
+│   │   └── middlewares/
+│   │       ├── error-handler.js
+│   │       └── auth.js
+│   │
+│   ├── domain/
+│   │   ├── entities/
+│   │   │   ├── curso.js
+│   │   │   ├── materia.js
+│   │   │   ├── horario.js
+│   │   │   ├── usuario.js
+│   │   │   └── persona.js
+│   │   └── value_objects/
+│   │       └── email.js
+│   │
+│   ├── infrastructure/
+│   │   ├── data_sources/
+│   │   │   └── database/
+│   │   │       ├── connection.js
+│   │   │       ├── curso-repository.js
+│   │   │       ├── materia-repository.js
+│   │   │       ├── horario-repository.js
+│   │   │       ├── usuario-repository.js
+│   │   │       └── persona-repository.js
+│   │   ├── webserver/
+│   │   │   ├── app.js
+│   │   │   ├── routes/
+│   │   │   │   ├── curso-routes.js
+│   │   │   │   ├── materia-routes.js
+│   │   │   │   ├── horario-routes.js
+│   │   │   │   ├── usuario-routes.js
+│   │   │   │   └── persona-routes.js
+│   │   │   └── server.js
+│   │   └── utils/
+│   │       └── password.js
+│   └── interfaces/
+│       └── repositories/
+│           ├── curso-repository.js
+│           ├── materia-repository.js
+│           ├── horario-repository.js
+│           ├── usuario-repository.js
+│           └── persona-repository.js
+│
+├── tests/
+│   ├── unit/
+│   │   └── domain/
+│   ├── integration/
+│   └── e2e/
+│
+├── package.json
+└── .env
