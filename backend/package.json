@@ -1,0 +1,31 @@
+{
+    "name": "proyecto-web",
+    "version": "1.0.0",
+    "description": "Proyecto de desarrollo web para gestión de cursos y horarios",
+    "main": "./src/infrastructure/webserver/server.js",
+    "scripts": {
+        "start": "node ./src/infrastructure/webserver/server.js",
+        "dev": "nodemon ./src/infrastructure/webserver/server.js"
+    },
+    "author": "Tu nombre",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "helmet": "^6.0.1",
+        "http-status-codes": "^2.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.2",
+        "morgan": "^1.10.0",
+        "mssql": "^9.1.1",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^4.6.2",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13"
+    }
+}

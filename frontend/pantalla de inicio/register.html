@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Usuario</title>
+  <link rel="stylesheet" href="stylesregistro.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registro de Usuario</h2>
+    <form action="register.php" method="post">
+      <div class="form-group">
+        <label for="name">Ingrese nombre y apellido:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Ingrese correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="cedula">Ingrese número de cédula de identidad:</label>
+        <input type="text" id="cedula" name="cedula" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Ingrese contraseña:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Verificar contraseña:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <div class="form-group">
+        <label for="perfil">Ingrese tipo de perfil:</label>
+        <select id="perfil" name="perfil">
+          <option value="alumno">Alumno</option>
+          <option value="celador">Celador</option>
+          <option value="docente">Docente</option>
+        </select>
+      </div>
+      <button type="submit">Registrarse</button>
+    </form>
+  </div>
+</body>
+</html>

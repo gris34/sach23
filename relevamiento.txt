@@ -1,4 +1,4 @@
-queremos una web que tenga login este redirige segun el rol del usuario (3 roles, alumno,profesor, celador) 
+una web que tenga login este redirige segun el rol del usuario (3 roles, alumno,profesor, celador) 
 
 funciones de cada rol:
 roles
@@ -18,4 +18,3 @@ Funciones:
 3.- abm profesor: ver listado de profesores con la opcion de añadir o modificar o eliminar. campos: datos personales, correo, asignacion de (materias, curso y cantidad limite de horario) a ese profesor.
 4.- Asignacion de horarios de cursos (receso almuerzo y salida) puede ser por dia lunes a viernes.
 
-podrias crearnos el diagrama de entidad relacion en este lenguaje dbdiagram.io

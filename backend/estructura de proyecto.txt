@@ -24,7 +24,7 @@ backend/
 │   │
 │   ├── infrastructure/
 │   │   ├── data_sources/
-│   │   │   └── database/
+│   │   │   └──  database/
 │   │   │       ├── connection.js
 │   │   │       ├── curso-repository.js
 │   │   │       ├── materia-repository.js

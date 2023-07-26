@@ -1,0 +1,65 @@
+/* Estilo para el cuerpo del documento */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/imagenes/colegio.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para el contenedor del formulario */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilo para el formulario de inicio de sesión */
+form {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Estilo para el encabezado del formulario */
+form h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Estilo para las etiquetas del formulario */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada del formulario */
+form input[type="text"],
+form input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Estilo para el botón de enviar del formulario */
+form input[type="submit"] {
+  background-color:#734c54;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para el botón de enviar del formulario al pasar el mouse por encima */
+form input[type="submit"]:hover {
+  background-color: #0062cc;
+}
